@@ -14,8 +14,6 @@ Each node contains:
 Example:
 
 [10 | next] -> [20 | next] -> [30 | null]
-
-
 Unlike an array, elements are NOT stored contiguously.
 
 
