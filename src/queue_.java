@@ -9,7 +9,7 @@ public class queue_ {
         Queue<String> queue=new Queue<String>();(doesnt work in a class because queue is an interface)
         hence we will use a linkedlist to implement queue
          */
-        Queue<String> queue= new LinkedList<String>();
+        Queue<String> queue= new LinkedList<>();
         /* queue methods
            1.) offer() - adds value after the tail(enqueue);
            2.) poll() - removes value at the head currently(dequeue);
